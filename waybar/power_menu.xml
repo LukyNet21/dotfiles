@@ -17,11 +17,16 @@
         </object>
     </child>
     <child>
-      <object class="GtkSeparatorMenuItem" id="delimiter1"/>
+        <object class="GtkSeparatorMenuItem" id="delimiter1"/>
     </child>
     <child>
 		<object class="GtkMenuItem" id="logout">
 			<property name="label">Logout</property>
+		</object>
+    </child>
+    <child>
+		<object class="GtkMenuItem" id="lock">
+			<property name="label">Lock</property>
 		</object>
     </child>
   </object>
