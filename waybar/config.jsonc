@@ -195,7 +195,7 @@
             "reboot": "reboot",
             "suspend": "systemctl suspend",
             "logout": "hyprctl dispatch exit",
-            "lock": "swaylock"
+            "lock": "hyprlock"
         }
     }
 }
