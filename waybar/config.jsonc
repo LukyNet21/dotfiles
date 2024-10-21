@@ -6,8 +6,11 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
+    // "margin": "5 10 0 10",
     "modules-left": [
         "hyprland/workspaces"
+        //"hyprland/language"
+        //"keyboard-state",
     ],
     "modules-center": [
         "hyprland/window"
@@ -16,13 +19,11 @@
         "mpd",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
+        //"power-profiles-daemon",
         "cpu",
         "memory",
         "temperature",
-        "keyboard-state",
         "battery",
-        "battery#bat2",
         "clock",
         "tray",
         "custom/power"
@@ -42,6 +43,11 @@
             "focused": "",
             "default": ""
         }
+    },
+    "hyprland/language": {
+        "format": "{} ",
+        "min-length": 5,
+        "tooltip": false
     },
     "keyboard-state": {
         "numlock": true,
@@ -185,7 +191,7 @@
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
     },
-   "custom/power": {
+    "custom/power": {
         "format": "⏻ ",
         "tooltip": false,
         "menu": "on-click",

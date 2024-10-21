@@ -7,3 +7,5 @@
 [user]
 	name = lukynet
 	email = 98685127+LukyNet21@users.noreply.github.com
+[core]
+	editor = nvim
